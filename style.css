@@ -74,7 +74,7 @@ nav ul li a
 	font-family: calibri;
 	font-weight: bold;
 	color: #6d6d6d;
-	font-size: 22px;
+	font-size: 24px;
 }
 
 .conteudo-texto p:nth-child(2)
@@ -143,7 +143,7 @@ button:active
 .imgbg
 {
 	height: 780px;
-	bottom: 0px;
+	bottom: 50px;
 	position: absolute;
 	left: 67%;
 	transform: translateX(-60%);
@@ -151,7 +151,7 @@ button:active
 
 .conteudo-sobre
 {
-	top: 130px;
+	top: 70px;
 	width: 60%;
 	height: 330px;
 	background-color: #ffffff;
@@ -167,6 +167,7 @@ button:active
 .conteudo-sobre img 
 {
 	height: 290px;
+	border-radius: 10%;
 }
 
 .texto-sobre
@@ -211,4 +212,195 @@ button:active
 	font-size: 16px;
 	font-weight: bold;
 	background-color: #55ffaf;
+	border-radius: 5px;
+}
+
+/*Seção de serviços*/
+
+.servicos
+{
+	border-radius: 20px;
+	box-shadow:  6px 6px 18px rgba(0, 0, 0, 0.5);
+	width: 60%;
+	margin:-7% auto 20px;
+	position: relative;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 550px;
+	background-color: white;
+	margin-top: 100px;
+}
+
+.servicos-textos
+{
+	transform: translateY(40px);
+	height: 140px;
+	justify-content: center;
+	align-items: center;
+	width: 500px;
+	margin: 10px/*topo*/ 0px/*direita*/ 0px/*baixo*/ 50px/*esquerda*/;
+}
+
+.servicos-textos p:nth-child(1)
+{
+	font-family: calibri;
+	font-weight: bold;
+	color: Black;
+	font-size: 50px;
+	line-height: 0px;
+
+}
+
+.servicos-textos p:nth-child(2)
+{
+	font-family: calibri;
+	font-weight: bold;
+	color: #3d3d3d;
+	font-size: 20px;
+	line-height: 5px;
+}
+
+.servicos-textos p:nth-child(3)
+{
+	font-family: calibri;
+	color:  darkslategrey;
+}
+
+.box1, .box2, .box3
+{
+	border-radius: 5px;
+	margin: 50px/*topo*/ 0px/*direita*/ 0px/*baixo*/ 0px/*esquerda*/;
+	width: 300px;
+	height: 320px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;	
+}
+
+.conteudo-box
+{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.box1
+{
+	background-image: url(img/services-1.png);
+}
+
+.box2
+{
+	background-image: url(img/services-2.png);
+}
+
+.box3
+{
+	background-image: url(img/services-3.png);
+}
+
+.box1 span,.box2 span,.box3 span
+{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: calibri;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.box1 p:nth-child(2), .box2 p:nth-child(2), .box3 p:nth-child(2)
+{
+	color: white;
+	font-family: calibri;
+	font-size: 23px;
+	line-height: 0px;
+
+}
+
+.box1 p:nth-child(3), .box2 p:nth-child(3), .box3 p:nth-child(3)
+{
+	color: #8f8f8f;
+	text-align: center;
+	font-family: calibri;
+	width: 250px;
+	margin: 0px 0px 20px 0px;
+}
+
+/*Seção Fale comigo*/
+
+.contato
+{
+	width: 100%;
+	height: 280px;
+	background-color: #55ffaf;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contato p
+{
+	color: black;
+	font-family: calibri;
+	font-size: 50px;
+	font-weight: bold;
+	border-bottom:  2px solid black;
+}
+
+.contato button
+{
+	width: 200px;
+	height: 40px;
+	background-color: white;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* Seção FOOTER */
+
+footer
+{
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+footer p
+{
+	font-family: calibri;
+}
+
+footer p:nth-child(1)
+{
+	font-weight: bold;
+	color: #191919;
+	line-height: 10px;
+	font-size: 30px;
+}
+
+footer p:nth-child(2)
+{
+	font-size: 16px;
+	color: #7e7d7d;
+	width: 500px;
+	text-align: center;
 }
