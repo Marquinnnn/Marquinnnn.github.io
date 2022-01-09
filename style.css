@@ -401,6 +401,7 @@ footer p:nth-child(2)
 	text-align: center;
 }
 
+/*Pagina do SOBRE*/
 .sobre
 {
 	margin: 100px 300px 0px 300px;
@@ -449,6 +450,8 @@ footer p:nth-child(2)
 	font-family: calibri;
 	font-size: 18px;
 }
+
+/*PAGINA DO CONTATO*/
 
 .imgbg-contato
 {
@@ -579,5 +582,106 @@ footer p:nth-child(2)
 	font-weight: bold;
 	align-content: center;
 	justify-content: center;
+
+}
+
+
+/*PAGINA DO PROJETOS*/
+
+.conteudo-projeto
+{
+	margin: 10px 0px 25px;
+	position: absolute;
+	left: 20%;
+	top: 30%;
+	transform: translate(600px);
+}
+
+.conteudo-projeto p:nth-child(1)
+{
+	font-family: calibri;
+	font-size: 100px;
+	font-weight: bold;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+.conteudo-projeto p:nth-child(2)
+{
+	font-family: myriad pro;
+	font-size: 34px;
+	font-weight: bold;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.conteudo-puc
+{
+	top: 30px;
+	width: 74%;
+	height: 3450px;
+	background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow:  6px 6px 18px rgba(0, 0, 0, 0.5);
+	display: flex;
+	margin: -7% auto 200px;
+	position: relative;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.texto-projetos-puc
+{
+	margin-top: 0px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.imgprojeto
+{
+	height: 450px;
+	border-radius: 10px;
+}
+
+.titulo
+{
+	margin-top: 0px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.subtitulo
+{
+	font-family: calibri;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.descricao
+{
+	font-family: myriad pro;
+	font-size: 18px;
+	margin: 0px 100px 15px 100px;
+}
+
+.legenda
+{
+	font-family: myriad pro;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+.separacao
+{
+	color: #55ffaf;
+	font-weight: bold;
+	font-size: 22.2px;
+	text-align: center;
+	align-items: center;
 
 }
