@@ -160,7 +160,7 @@ button:active
 	align-items: center;
 }
 
-.conteudo-sobre img 
+.conteudo-sobre img, .conteudo-contato-plus img
 {
 	height: 290px;
 	border-radius: 10%;
@@ -455,16 +455,129 @@ footer p:nth-child(2)
 	height: 780px;
 	bottom: 50px;
 	position: absolute;
-	left: 67%;
+	left: 45%;
 	transform: translateX(-100%);
 }
 
-.conteudo-texto-contato
+.conteudo-texto-contato-main
 {
 	line-height: 0px;
 	margin: 45px 0px 25px;
 	position: absolute;
 	left: 13%;
-	top: 42%;
-	transform: translate(13%, -42%);
+	top: 32%;
+	transform: translate(600px);
+}
+
+.conteudo-texto-contato-main p:nth-child(1)
+{
+	font-family: calibri;
+	font-size: 65px;
+	font-weight: bold;
+	text-align: center;
+	justify-content: center;
+	letter-spacing: 1px;
+}
+.conteudo-texto-contato-main p:nth-child(2), .conteudo-texto-contato-main p:nth-child(3)
+{
+	font-family: myriad pro;
+	font-size: 30px;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btn3, .btn4
+{
+	font-family: myriad pro;
+	font-size: 18px;
+	font-weight: bold;
+
+	border-radius: 5px;
+	margin: 30px 20px 0px 120px;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	justify-content: center;
+}
+
+.btn3
+{
+	background-color: #ffffff;
+	color: #55ffaf;
+}
+
+.btn4
+{
+	background-color: #55ffaf;
+	color: #ffffff;
+}
+
+.conteudo-contato-plus
+{
+	top: 30px;
+	width: 74%;
+	height: 330px;
+	background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow:  6px 6px 18px rgba(0, 0, 0, 0.5);
+	display: flex;
+	margin: -7% auto 200px;
+	position: relative;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.texto-contato
+{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.btnyoutube
+{
+	background-image: url(img/youtube-logo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 144px;
+}
+
+.btninsta
+{
+	background-image: url(img/instagram-logo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100px;
+}
+
+.btntwitter
+{
+	background-image: url(img/twitter-logo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100px;
+}
+
+.btnyoutube, .btninsta, .btntwitter
+{
+	justify-content: center;
+	border-radius: 10px;
+	align-items: center;
+	border: none;
+	height: 100px;
+	margin: 30px 150px 0px 150px;
+}
+
+.texto-contato p:nth-child(1)
+{
+	margin-top: -20px;
+	font-family: calibri;
+	font-size: 40px;
+	font-weight: bold;
+	align-content: center;
+	justify-content: center;
+
 }
