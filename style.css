@@ -187,6 +187,7 @@ button:active
 	font-family: myriad pro;
 	font-weight: bold;
 	line-height: 5px;
+	text-shadow: 1px 1px 3px black;
 }
 
 .conteudo-sobre p:nth-child(3),
@@ -209,6 +210,7 @@ button:active
 	font-weight: bold;
 	background-color: #55ffaf;
 	border-radius: 5px;
+	margin: 0px 10px 0px 0px ;
 }
 
 /*Seção de serviços*/
@@ -418,7 +420,7 @@ footer p:nth-child(2)
 	margin: 10px;
 	transform: translateX(505px);
 	height: 250px;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 
 
@@ -433,8 +435,10 @@ footer p:nth-child(2)
 	margin: 1px 0px 1px 0px;
 	font-family: calibri;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 45px;
+	color: #55ffaf;
 	text-align: center;
+	text-shadow: 1px 1px 3px black;
 }
 
 .pag-sobre-texto p:nth-child(2)
@@ -481,7 +485,7 @@ footer p:nth-child(2)
 	justify-content: center;
 	letter-spacing: 1px;
 }
-.conteudo-texto-contato-main p:nth-child(2), .conteudo-texto-contato-main p:nth-child(3)
+.conteudo-texto-contato-main p:nth-child(2), .conteudo-texto-contato-main p:nth-child(3), .conteudo-texto-contato-main p:nth-child(4)
 {
 	font-family: myriad pro;
 	font-size: 30px;
@@ -527,7 +531,7 @@ footer p:nth-child(2)
 	border-radius: 20px;
 	box-shadow:  6px 6px 18px rgba(0, 0, 0, 0.5);
 	display: flex;
-	margin: -7% auto 200px;
+	margin: -7% auto 50px;
 	position: relative;
 	justify-content: space-evenly;
 	align-items: center;
@@ -545,7 +549,8 @@ footer p:nth-child(2)
 	background-image: url(img/youtube-logo.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 144px;
+	width: 165px;
+	border-radius: 26px;
 }
 
 .btninsta
@@ -553,7 +558,7 @@ footer p:nth-child(2)
 	background-image: url(img/instagram-logo.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 100px;
+	width: 115px;
 }
 
 .btntwitter
@@ -561,27 +566,38 @@ footer p:nth-child(2)
 	background-image: url(img/twitter-logo.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 100px;
+	width: 115px;
 }
 
-.btnyoutube, .btninsta, .btntwitter
+.btngithub
+{
+	background-image: url(img/GitHub-Logo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 115px;
+}
+
+.btnyoutube, .btninsta, .btntwitter, .btngithub
 {
 	justify-content: center;
-	border-radius: 10px;
 	align-items: center;
 	border: none;
-	height: 100px;
-	margin: 30px 150px 0px 150px;
+	margin: 30px 70px 0px 70px;
+	height: 115px;
+	background-color: white;
 }
 
 .texto-contato p:nth-child(1)
 {
-	margin-top: -20px;
+	margin: -20px 0px 15px 0px;
 	font-family: calibri;
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: bold;
+	color: #55ffaf;
 	align-content: center;
 	justify-content: center;
+	text-shadow: 2px 2px 4px black;
 
 }
 
@@ -622,7 +638,7 @@ footer p:nth-child(2)
 {
 	top: 30px;
 	width: 74%;
-	height: 3450px;
+	height: 3590px;
 	background-color: #ffffff;
 	border-radius: 20px;
 	box-shadow:  6px 6px 18px rgba(0, 0, 0, 0.5);
@@ -633,7 +649,7 @@ footer p:nth-child(2)
 	align-items: center;
 }
 
-.texto-projetos-puc
+.texto-projetos
 {
 	margin-top: 0px;
 	text-align: center;
@@ -649,15 +665,18 @@ footer p:nth-child(2)
 
 .titulo
 {
-	margin-top: 0px;
-	font-size: 50px;
+	font-family: calibri;
+	margin: 20px 0px 0px 0px;
+	font-size: 70px;
 	font-weight: bold;
+	color: #55ffaf;
+	text-shadow:  2px 2px 4px black
 }
 
 .subtitulo
 {
 	font-family: calibri;
-	font-size: 25px;
+	font-size: 30px;
 	font-weight: bold;
 }
 
@@ -673,7 +692,7 @@ footer p:nth-child(2)
 	font-family: myriad pro;
 	font-size: 15px;
 	font-weight: bold;
-	margin-top: 0px;
+	margin-top: 15px;
 }
 
 .separacao
@@ -684,4 +703,37 @@ footer p:nth-child(2)
 	text-align: center;
 	align-items: center;
 
+}
+
+.conteudo-geral
+{
+	top: 30px;
+	width: 74%;
+	height: 4000px;
+	background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow:  6px 6px 18px rgba(0, 0, 0, 0.5);
+	display: flex;
+	margin: -7% auto 40px;
+	position: relative;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.texto-projetos iframe
+{
+	border-radius: 20px;
+}
+
+.imglista
+{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.imglista img
+{
+	height: 400px;
+	margin: 10px 40px;
 }
