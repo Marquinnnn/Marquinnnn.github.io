@@ -71,10 +71,13 @@ nav ul li a
 
 .conteudo-texto p:nth-child(1)
 {
+
 	font-family: calibri;
 	font-weight: bold;
 	color: #6d6d6d;
 	font-size: 24px;
+	text-align: justify;
+	justify-content: center;
 }
 
 .conteudo-texto p:nth-child(2)
@@ -84,6 +87,7 @@ nav ul li a
 	letter-spacing: 1px;
 	color: #000;
 	font-size: 60px;
+	text-align: justify;
 }
 
 .conteudo-texto p:nth-child(3)
@@ -92,6 +96,7 @@ nav ul li a
 	color: #403e3e;
 	font-size: 30px;
 	line-height: 30px;
+	text-align: justify;
 }
 
 .conteudo-texto
@@ -138,7 +143,7 @@ button:active
 
 .imgbg
 {
-	height: 780px;
+	height: 80%;
 	bottom: 50px;
 	position: absolute;
 	left: 67%;
@@ -162,7 +167,7 @@ button:active
 
 .conteudo-sobre img, .conteudo-contato-plus img
 {
-	height: 290px;
+	height: 90%;
 	border-radius: 10%;
 }
 
@@ -413,13 +418,12 @@ footer p:nth-child(2)
 	box-shadow:  6px 6px 18px rgba(0, 0, 0, 0.5);
 	justify-content: center;
 	align-items: center;
-}
+	}
 
-.sobre img
+div center img
 {
 	margin: 10px;
-	transform: translateX(505px);
-	height: 250px;
+	height: 240px;
 	border-radius: 10px;
 }
 
@@ -459,7 +463,7 @@ footer p:nth-child(2)
 
 .imgbg-contato
 {
-	height: 780px;
+	height: 80%;
 	bottom: 50px;
 	position: absolute;
 	left: 45%;
@@ -638,7 +642,7 @@ footer p:nth-child(2)
 {
 	top: 30px;
 	width: 74%;
-	height: 3590px;
+	height: 100%;
 	background-color: #ffffff;
 	border-radius: 20px;
 	box-shadow:  6px 6px 18px rgba(0, 0, 0, 0.5);
@@ -655,6 +659,7 @@ footer p:nth-child(2)
 	text-align: center;
 	align-items: center;
 	justify-content: center;
+	text-align: justify-all;
 }
 
 .imgprojeto
@@ -667,6 +672,7 @@ footer p:nth-child(2)
 {
 	font-family: calibri;
 	margin: 20px 0px 0px 0px;
+	size: 70%;
 	font-size: 70px;
 	font-weight: bold;
 	color: #55ffaf;
